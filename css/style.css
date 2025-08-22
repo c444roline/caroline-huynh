@@ -83,7 +83,7 @@ h6, .h6 {
 .btn {
   padding: 18px 38px;
   border: 2px solid transparent;
-  text-transform: uppercase;
+  text-transform: lowercase;
   border-radius: 0px;
   font-size: 14px;
   line-height: 14px;
@@ -224,7 +224,6 @@ ul.dropdown-menu > li > a, .navbar ul ul ul.dropdown-menu li .nav-link {
   padding-bottom: 10px;
   border-bottom: 1px solid #5e86c5;
   color: #000000;
-  text-transform: uppercase;
 }
 ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hover {
   color: #5e86c5;
@@ -263,11 +262,6 @@ ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hov
   -moz-transition: all 0.3s ease-in-out 0s;
   -ms-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
-  /* box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-  -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-  -ms-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-  -o-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175); */
 }
 
 .dropdown:hover .dropdown-menu {
@@ -349,7 +343,7 @@ ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hov
 .portfolio .btn-group .btn {
   border-radius: 0px !important;
   padding-left: 0px;
-  font-weight: 700;
+  font-weight: 300;
 }
 .portfolio .btn-group .btn:hover {
   color: #5e86c5;
